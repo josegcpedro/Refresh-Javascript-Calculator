@@ -1,12 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="script.js"></script>
+    <title>Calculatrice</title>
+    <script defer src="script.js"></script>
 </head>
+
 <body>
-    
+    <h1>Bienvenue dans la calculatrice</h1>
+
+    <input placeholder="Numéro 1" type="text" id="number1">
+    <input placeholder="Numéro 2" type="text" id="number2">
+
+    <button onclick="getNumbers()">Envoyer</button>
+    <br><br>
+
+    <button onclick="addition()">Addition</button>
+    <button onclick="soustraction()">Soustraction</button>
+    <button onclick="multiply()">Multiplication</button>
+
+    <p id="result"></p>
 </body>
 </html>
